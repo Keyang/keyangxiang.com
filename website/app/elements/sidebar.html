@@ -1,0 +1,45 @@
+<div class="sidebar">
+	
+	<?mvc
+	if ($(".sidebar .translate").length==0){
+		echo ('<div class="widgit translate">');
+		echo ('<div class="title">');
+		echo ('	TRANSLATE / 翻译');
+		echo ('</div>');
+		echo ('<div class="content">');
+		echo ('	<div id="google_translate_element"></div>');
+			
+		echo ('</div>');
+	echo ('</div>');
+	}else{
+		var html=$(".sidebar .translate").html();
+		echo (html);
+	}
+	?>
+	<div class="widgit">
+		<div class="title projects">
+			PROJECTS
+		</div>
+		<div class="content">
+			<ul>
+				<?mvc
+				var html=[];
+				for (var i=0;i<projects.length;i++){
+				var p=projects[i];
+				var blogUrl=p.blogUrl;
+				html.push('<li class="project_item">');
+				html.push('<a href="'+blogUrl+'">'+projects[i].name+'</a>');
+				html.push('</li>');
+				}
+				echo(html.join(""));
+				?>
+			</ul>
+		</div>
+	</div>
+	<div class="widgit">
+		<div class="title">
+			EXTERNAL LINKS
+		</div>
+		<div class="content"></div>
+	</div>
+</div>

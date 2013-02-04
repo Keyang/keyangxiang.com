@@ -1,0 +1,53 @@
+.footer{
+	background:#000;
+	color:#fff;
+	
+}
+
+
+.footer .content-pad{
+	padding: 20px 0 1em;
+}
+
+
+.footerItems .item{
+	float:left;
+	display:inline;
+	width:176px;
+	margin-right: 20px;
+}
+
+
+.footer .home{
+	text-decoration:none;
+	color:#fff;
+}
+
+.footer ul{
+	list-style:none;
+	padding:0 5px 0 5px;
+}
+
+.footer ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.footer ul li a:hover{
+	text-decoration:underline;
+}
+
+.footer .small-title{
+	border-bottom: 1px solid #666;
+}
+.footer .info{
+	letter-spacing:0.05em;
+}
+
+.footer .mail a{
+	color:#fff;
+	margin-left:5px;
+}
+.footerItems{
+	width:980px;
+}

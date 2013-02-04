@@ -1,0 +1,73 @@
+.header .content-pad {
+	padding: 25px 0px 25px 15px;
+}
+.main-nav {
+	list-style: none;
+	display:block;
+	float:left;
+}
+.main-nav .nav-item {
+	float: left;
+}
+.main-nav .nav-item a {
+	font-size: 0.85em;
+	letter-spacing: 0.10em;
+	color: #777;
+	padding: 10px 15px 10px;
+	text-transform: uppercase;
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	vertical-align: baseline;
+	text-decoration:none;
+	display:block;
+}
+
+.main-nav .nav-item a:hover{
+	color:black;
+	background:#F1F1F1;
+}
+
+
+.header .fix{
+	border-bottom:1px solid #E9E9E9;
+}
+
+.header .icons a{
+    display: block;
+    float: right;
+    height: 22px;
+    margin-left: 7px;
+    text-align: right;
+    width: 22px;
+	background:url(../images/sprite-socialicons.png);
+}
+
+.header .icons .rsslink{
+	background-position:0 0;
+}
+.header .icons .rsslink:hover{
+	background-position:0 -22px;
+}
+
+.header .icons .twitterlink{
+	background-position:-22px 0;
+}
+.header .icons .twitterlink:hover{
+	background-position:-22px -22px;
+}
+
+.header .icons .facebooklink{
+	background-position:-88px 0;
+}
+.header .icons .facebooklink:hover{
+	background-position:-88px -22px;
+}
+
+.header .icons .linkedinlink{
+	background-position:-66px 0;
+}
+.header .icons .linkedinlink:hover{
+	background-position:-66px -22px;
+}

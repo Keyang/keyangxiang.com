@@ -1,0 +1,33 @@
+<div class="album">
+	<?mvc
+	for (var i=0;i
+	<images.length;i++){
+	var img=images[i];
+	var html=[];
+	html.push("<a href='");
+	html.push(img.href);
+	html.push("'>");
+	html.push("<img alt='");
+	html.push(img.imgTitle);
+	html.push("' title='");
+	html.push(img.imgTitle);
+	html.push("' width=960 height=500 class='imgs' style='display:none' src='");
+	html.push(img.imgSrc);
+	html.push("' />");
+	html.push("</a>");
+	echo (html.join(""));
+	}
+
+	?>
+		<div class="rectContainer">
+			<?mvc
+			for (var i=0;i<images.length;i++){
+			var html=[];
+			html.push('<div class="rect active">');
+			html.push('<input type="hidden" value="'+i+'"/>');
+			html.push('</div>');
+			echo (html.join(""));
+			}
+			?>
+		</div>
+</div>

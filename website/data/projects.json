@@ -1,0 +1,24 @@
+{
+	"projects": [
+		{
+			"name": "JQMVC",
+			"description": "JQMVC is a MVC framework writen in Javascript. It releases developers from nightmare of JS App architecture. With clear and simple Model-View-Controller concept, JQMVC arranges JS code into a pretty and neat way.",
+			"icon": "./images/projects/jqmvcicon.jpg",
+			"url": "http://jqmvc.com",
+			"blogUrl": "http://keyangxiang.com/blog/jqmvc/"
+		}, {
+			"name": "HTML2DATA",
+			"description": "Wanna grab data from html pages? html2data allows you to convert data inside HTML pages to JSON or XML data format with customised rules. It also provides REST and JSONP APIs.",
+			"icon": "",
+			"url": "",
+			"blogUrl": ""
+		},{
+		
+			"name":"CSV2JSON",
+			"description":"Convert CSV Data to JSON format. Additional parsing rules are supported.",
+			"icon":"",
+			"url":"./projects.html?_ctl=project&_act=csv2json",
+			"blogUrl": "http://keyangxiang.com/blog/csv2json/"
+		}
+	]
+}

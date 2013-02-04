@@ -1,0 +1,36 @@
+<script src="./projects/csv2json/lib.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/csv2json.css"/>
+<div class="project_content">
+	<div class="content content-pad relative two_colomn">
+		<div class="left">
+		<h3> CSV to JSON</h3>
+		<input type="hidden" id="uploader" value="/projects/csv2json/api"/>
+		<table>
+			<tr>
+				<td><textarea id="rawcsv" style='height:300px;width:300px' placeholder="Paste your CSV here"></textarea></td>
+				<td><input type="button" onclick="return fu()" value="Convert=>"/></td>
+				<td><textarea id='res' style='height:300px;width:300px' placeholder="Coverting Result"></textarea></td>
+			</tr>
+			
+		</table>
+		
+		<p>
+			Try to put following data and see what will happen.
+		</p>
+		<pre class="code">
+date,employee.name,employee.age,employee.number,shop.location[],shop.location[]
+2012-02-12,Eric,31,51234,Dunno Street,Kilkeny Road
+2012-03-06,Ted,28,51289,Cambridge Road,Tormore
+		</pre>
+		
+		<p>
+			For more usage, please checkout <a href="<?mvc
+				echo (projects[2].blogUrl);
+			?>" target="_blank">CSV2JSON</a>
+		</p>
+		</div>
+		<?mvc
+		echo (element("sidebar",{projects:projects}));
+		?>
+	</div>
+</div>

@@ -1,0 +1,41 @@
+.sidebar{
+	position:absolute;
+	min-height:450px;
+	right:10px;
+	top:10px;
+	width:180px;
+	border-left: 1px solid #CCCCCC;
+	padding:15px 0px 0px 25px;
+	color:#333;
+}
+
+.sidebar .title{
+	border-bottom:1px solid #ddd;
+}
+
+.sidebar .widgit{
+	margin-bottom:15px;
+}
+
+
+.sidebar .content{
+	padding-top:10px;
+	width:auto;
+}
+
+.sidebar ul{
+	margin:0;
+	padding:0;
+	list-style:circle inside none;
+}
+
+.sidebar li{
+	
+	padding-left:10px;
+	cursor:pointer;
+	margin-bottom:5px;
+}
+.sidebar li a{
+	color:#888;
+	font-size:0.8em;
+}

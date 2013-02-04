@@ -1,0 +1,15 @@
+<div>
+	<div class="content content-pad relative">
+		<div class="projects">
+			<?mvc
+				for (var i=0;i<projects.length;i++){
+					var project=projects[i];
+					echo(element("projectListItem",project));
+				}
+			?>
+		</div>
+		<?mvc
+		echo (element("sidebar",{projects:projects}));
+		?>
+	</div>
+</div>

@@ -1,0 +1,22 @@
+<div>
+	<?mvc echo(element("header"))?>
+	<div class="content content-pad body relative">
+		<h2>About Keyang <a href="./download/keyang.pdf" class="cv">Download CV</a></h2>
+		<p>
+			I like challenge. I like life. I like beautiful views. I like fun stuff.
+		</p>
+		<p>
+			I am a software engineer. I write Website, Web Apps, Mobile Apps, and Frameworks.   
+		</p>
+		<p>
+			I am an Agile practicer. I write Software Proposals. I compose Agile solutions.   
+		</p>
+		<p>
+			I am working for <a href="http://www.feedhenry.com">Feedhenry</a> as Software Engineer.
+		</p>
+		<?mvc 
+			echo (element("sidebar",{projects:projects}));
+		?>
+	</div>
+	<?mvc echo(element("footer"))?>
+</div>

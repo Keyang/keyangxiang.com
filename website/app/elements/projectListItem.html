@@ -1,0 +1,36 @@
+<div class="project">
+	<?mvc 
+		if (icon==""){
+			icon="./images/projects/project_default.jpg";
+		}
+		var html="";
+		var img='<img src="'+icon+'"/>';
+		if (url!=""){
+			html+='<a href="'+url+'" target="_blank">';
+			html+=img;
+			html+="</a>"
+		}else{
+			html+=img;
+		}
+	    echo(html);
+	?>
+	<h3><?mvc
+		var rtn="" 
+		if (url!=""){
+			rtn+='<a href="'+url+'" target="_blank">';
+			rtn+=name;
+			rtn+="</a>";
+		}else{
+			rtn=name;
+		}
+		echo(rtn);
+	?></h3>
+	<p><?mvc echo(description)?></p>
+	<div class="more"><?mvc
+		if (blogUrl!=""){
+			echo ("<a href='"+blogUrl+"'><span>more...</span></a>");
+		}
+		
+		?>
+		</div>
+</div>
