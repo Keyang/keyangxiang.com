@@ -28,7 +28,7 @@ if(pagelines_is_buddypress_page()):?>
 	<div class="outline fix"><?php 
 		pagelines_template_area('pagelines_footer', 'footer'); // Hook 
 		pagelines_register_hook('pagelines_after_footer'); // Hook
-		pagelines_cred(); 
+//		pagelines_cred(); 
 	?></div>
 </div>
 </div>
