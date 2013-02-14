@@ -41,7 +41,7 @@ server {
 		#return 418;
 	#}
 
-	#error_page 404 /404.html;
+	error_page 404 /404.html;
 
 	# redirect server error pages to the static page /50x.html
 	#
@@ -70,7 +70,14 @@ server {
 			}
 		rewrite ^/blog/(.+)/$ /blog/index.php;
 	}
+	location /404.html {
+		return 404;
+	}
+	location /projects/csv2json/ {
+                proxy_pass  http://csv2json.cloudfoundry.com/;
+                proxy_set_header X-Real_IP $remote_addr;
 
+        }
 	# deny access to .htaccess files, if Apache's document root
 	# concurs with nginx's one
 	#
