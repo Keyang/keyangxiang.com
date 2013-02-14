@@ -1,0 +1,79 @@
+#workexperience{
+
+}
+#workexperience .workexps{
+	
+	display: block;
+            position:absolute;
+            top:40px;
+            bottom:5px;
+            left:50%;
+
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            width: 1000px;
+            margin-left:-500px;
+
+}
+#workexperience .workexps .innderWrapper{
+    width: 2000px;
+    float: left;
+    min-height: 100%;
+    padding: 0;
+    
+}
+#workexperience .workexps ul.scroller{
+    display: block;
+    float: left;
+    min-height: 100%;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width:100%;
+    list-style: none outside none;
+
+}
+#workexperience .workexps ul.scroller>li{
+    display: block;
+    float: left;
+    min-height:100%;
+    width: 1000px;
+
+}
+#workexperience .wepage h3{
+    margin-bottom:30px;
+}
+#workexperience .wepage{
+    width:50%;
+    min-height:100%;
+    padding:20px;
+    font-size:0.9em;
+
+}
+#workexperience .wepage .projectheader{
+    text-align: center;
+}
+#workexperience .tabbable{
+    background:#fff;
+    min-height:350px;   
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8px 8px 8px 8px;
+    -moz-border-radius:8px 8px 8px 8px;
+    -webkit-border-radius:8px 8px 8px 8px;
+}
+#workexperience .wepage .btn{
+    display: block;
+    width:100%;
+}
+
+#workexperience .wenavbar{
+    position:absolute;
+    top:10px;
+    left:50%;
+}
+#workexperience .pageWrapper .pageContent{
+    border:2px groove #ccc;
+}

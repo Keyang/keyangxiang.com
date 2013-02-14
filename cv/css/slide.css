@@ -1,0 +1,62 @@
+#config{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    bottom:0px;
+    z-index:99999;
+    -moz-transform: translate(-253px,0px);
+    -webkit-transform: translate(-253px,0px);
+    -o-transform: translate(-253px,0px);
+    -ms-transform: translate(-253px,0px);
+    transform: translate(-253px,0px);
+}
+.cfgbg{
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    width:250px;
+    background:#2c2c2c;
+    -webkit-box-shadow: inset -5px 0px 15px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset -5px 0px 15px 0px rgba(0, 0, 0, 1);
+    border-right:3px solid #777;
+    display:none;
+
+}
+.noopacity{
+    opacity:1 !important;
+}
+#config .option{
+    background: #2c2c2c;
+    position:absolute;
+    top:30px;
+    right:0px;
+    width:50px;
+    height:50px;
+    border-right:3px solid #777;
+    border-top:3px solid #777;
+    border-bottom:3px solid #777;
+    text-align:center;
+    font-size:1.5em;
+    box-sizing:border-box;
+    color:#a4a4a4;
+    cursor:pointer;
+    -webkit-box-shadow: 3px 3px 3px 2px rgba(3, 3, 3, 0.5);
+    box-shadow: 3px 3px 3px 2px rgba(3, 3, 3, 0.5);
+    opacity:0.3;
+    transition:opacity 1s;
+    -moz-transition:opacity 1s;
+    -webkit-transition:opacity 1s;
+}
+#config .option:hover{
+    opacity:1;
+}
+
+#config .option img{
+    position:absolute;
+    top:50%;
+    margin-top:-15px;
+    left:50%;
+    margin-left:-17px;
+}

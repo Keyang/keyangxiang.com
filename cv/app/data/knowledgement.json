@@ -1,0 +1,32 @@
+{
+	"Expertise":[
+		"Agile",
+		"Objected Oriented Analysis/Programming",
+		"Model – View – Controller Pattern"
+	],
+	"Advanced":[
+		"Abstract Factory Pattern",
+		"Strategy Pattern",
+		"Proxy Pattern",
+		"Decoration Pattern",
+		"Observer Pattern",
+		"Constructor Pattern",
+		"Façade Pattern",
+		"State Pattern",
+		"Adapter Pattern",
+		"Memento Pattern",
+		"Composite Pattern",
+		"Iterator Pattern",
+		"Singleton Pattern",
+		"Bridge Pattern",
+		"Command Pattern",
+		"Interpreter Pattern",
+		"Software Architecture: Event Driven, Distributed Computing, Client-Server, P2P"
+	],
+	"Basic":[
+		"Human Computer Interaction",
+		"Software Quality",
+		"Software Requirement",
+		"Network Protocols"
+	]
+}

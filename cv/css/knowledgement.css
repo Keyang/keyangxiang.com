@@ -1,0 +1,24 @@
+#knowledgement h3.header{
+	color:#999;
+	font-weight:bold;
+	border-bottom:1px solid #fff;
+	padding-bottom:8px;
+	margin-bottom:15px;
+	box-shadow:inset 0px -1px 0px 0px #ccc;
+	-moz-box-shadow:inset 0px -1px 0px 0px #ccc;
+	-webkit-box-shadow:inset 0px -1px 0px 0px #ccc;
+}
+
+#knowledgement .mainTable{
+	width:100%;
+}
+#knowledgement .mainTable th{
+	text-align: left;
+	color:#666;
+	padding-left:8px;
+	width:33%;
+}
+#knowledgement .mainTable td{
+	padding:12px;
+	vertical-align: top;
+}

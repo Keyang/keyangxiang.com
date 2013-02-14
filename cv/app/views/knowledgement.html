@@ -1,0 +1,57 @@
+<?mvc
+	var headers=data.headers;
+	var skillData=data.data;
+	var rows=data.rows;
+?>
+
+<div class="pageWrapper">
+	<link rel="stylesheet" type="text/css" href="./css/knowledgement.css"/>
+	<div class="pageContent">
+		<div class="content">
+			<h3 class="header">Software Engineering Knowledge</h3>
+			<table class="mainTable">
+				<tr>
+					<?mvc
+						for (var i=0;i<headers.length;i++){
+						?>
+							<th>
+								<?mvc echo (headers[i]);?>;
+							</th>
+					<?mvc
+						}
+					?>
+				</tr>
+				<?mvc 
+					for (var i=0;i<rows;i++){
+				?>
+					<tr>
+					<?mvc
+						for (var j=0;j<headers.length;j++){
+							var header=headers[j];
+							var d=skillData[header][i];
+								if (d){
+							?>
+								<td><img src="./images/arrow-right.gif"/>
+							<?mvc
+							
+								echo (d);
+							
+							?>
+								</td>
+							<?mvc
+								}else{
+									echo ("<td></td>");
+								}
+								}
+							?>
+					?>
+					</tr>
+					<?mvc
+						
+					}
+				?>
+			</table>
+		</div>
+	</div>
+
+</div>

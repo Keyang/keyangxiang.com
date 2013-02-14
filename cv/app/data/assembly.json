@@ -1,0 +1,10 @@
+{
+	"en":{
+		"data":{
+			"techskills":"./app/data/techskills.json",
+			"knowledgement":"./app/data/knowledgement.json"
+		},
+		"version":"1.0.0 alpha"
+	}
+
+}

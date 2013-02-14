@@ -1,0 +1,30 @@
+{
+	"Expertise":[
+		"HTML5, CSS3, Javascript",
+		"jQuery, jQuery Mobile, Sencha(ExtJs)",
+		"Node.Js, Rhino Javascript",
+		"PHP5",
+		"Joomla1.5/2.5.4",
+		"PhoneGap Mobile Application development",
+		"Feedhenry Application development"
+	],
+	"Advanced":[
+		"Ubuntu/Debian Linux system operation & administration",
+		"MySQL / Structured Database Management, SQL Statement",
+		"MongoDB / Non-Structured DB",
+		"Ant",
+		"Apache 2 installation & configuration",
+		"Nginx installation & configuration",
+		"JAVA EE 6 / EJB 3"
+	],
+	"Basic":[
+		"Maven",
+		"C# / .NET framework",
+		"Jenkins",
+		"Bash Script",
+		"Express Framework (Node.JS)",
+		"Photoshop",
+		"Python",
+		"Wordpress"
+	]
+}

@@ -1,0 +1,23 @@
+#education{
+
+}
+#education .nav{
+	margin-bottom:10px;
+}
+#education .navwrapper{
+	border-bottom:1px solid #fff;
+	box-shadow:inset 0px -1px 0px 0px #ccc;
+	margin-bottom:10px;
+}
+#education .column{
+	width:50%;
+	padding:10px;
+}
+#education .schoolName{
+	color:#777;
+	margin-bottom:10px;
+} 
+#education .table li{
+	padding:3px;
+	
+}

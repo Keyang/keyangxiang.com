@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/basic.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/slide.css"/>
+        
+        
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/jquery.transform.js"></script>
+        <script type="text/javascript" src="./js/jqmvc.js"></script>
+        <script type="text/javascript" src="./js/iscroll.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.js"></script>
+        
+        
+        <!-- Application Configuration File -->
+        <script type="text/javascript" src="./app/app.js"></script>
+        
+        <!-- Controllers -->
+        <script type="text/javascript" src="./app/controllers/mainCtl.js"></script>
+        <script type="text/javascript" src="./app/controllers/cover.js"></script>
+        <script type="text/javascript" src="./app/controllers/menu.js"></script>
+        <script type="text/javascript" src="./app/controllers/workexperience.js"></script>
+        <script type="text/javascript" src="./app/controllers/techskills.js"></script>
+        <script type="text/javascript" src="./app/controllers/knowledgement.js"></script>
+
+        <!-- Models -->
+        <script type="text/javascript" src="./app/models/assembly.js"></script>
+        <script type="text/javascript" src="./app/models/defines.js"></script>
+    </head>
+    <body>
+        <div id="pageContainer" class="fullscreen">
+            <div id="header">
+            	<div class="leftinfo left">
+	            	<div class="left"><img src="./images/cover/myprofile.jpg"/></div>
+	            	<div class="left basicinfo">
+	            		<h2 class="name">Keyang Xiang</h2>
+	            		<p class="curposition">Career: Senior Software Engineer</p>
+	            		<p class="education">Education: Master in Software Engineering</p>
+	            	</div>
+	            	<div class="left contact">
+	            		<div class="contacticons">
+	            			<a href="http://http://www.facebook.com/keyang.xiang" title="facebook"><img src="./images/facebook.png"/></a>
+	            			<a href="http://ie.linkedin.com/pub/keyang-xiang/2b/916/152" title="linkedin"><img src="./images/linkedin.png"/></a>
+	            			<a href="mailto:keyang.xiang@gmail.com" title="email"><img src="./images/email.png"/></a>
+	            		</div>
+	            		<div class="contacticons">
+	            			<a href="https://twitter.com/keyangxiang" title="twitter"><img src="./images/twitter.png"/></a>
+	            			<a href="https://github.com/Keyang" title="github"><img src="./images/github.png"/></a>
+	            			<a href="http://keyangxiang.com" title="website"><img src="./images/website.png"/></a>
+	            		</div>
+	            	</div>
+            	</div>
+            	<div class="menu left">
+            		<ul>
+            			<li class="active" id="menu_basicinfo">Basic Info</li>
+            			<li id="menu_techskill">Tech Skills</li>
+            			<li id="menu_knowledge">Knowledge Base</li>
+            			<li id="menu_workexperience">Work Experience</li>
+            			<li id="menu_projects">Projects</li>
+            			<li id="menu_education">Education</li>
+            		</ul>
+            	</div>
+            </div>
+            <div id="pages">
+            </div>
+            <div id="mask">
+                <div id="waitContainer">
+                    <div id="waitBar">
+                        <div id="waitBall"></div>
+                    </div>
+                    <div id="waitText">
+                        <p id="wait">Please Wait</p>
+                        <p id="waitInfo">Receiving Data</p>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <span> &copy; 2012 Developed by Keyang Xiang. <span class="versionwrapper">Version:<span class="version"></span></span></span>
+            </div>
+        </div>
+        <div id="config">
+            <div class="cfgbg">
+               
+            </div>
+            <div class="option boxsize">
+                <img src="./images/option/option.png"/>
+            </div> 
+            
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,38 @@
+#basicinfo{
+
+}
+#basicinfo .content{
+	width:600px;
+	margin:0px auto;
+}
+#basicinfo .content table{
+	font-size:1em;
+}
+#basicinfo h3.header{
+	color:#999;
+	font-weight:bold;
+	border-bottom:1px solid #fff;
+	padding-bottom:8px;
+	margin-bottom:15px;
+	box-shadow:inset 0px -1px 0px 0px #ccc;
+	-moz-box-shadow:inset 0px -1px 0px 0px #ccc;
+	-webkit-box-shadow:inset 0px -1px 0px 0px #ccc;
+}
+#basicinfo .content table .more{
+	width:32px;
+	height:32px;
+	background:url(../images/basicinfo/details.png) no-repeat;
+	opacity: 0.7;
+	cursor:pointer;
+	transition:transform 0.3s ease;
+	-moz-transition:-moz-transform 0.3s ease;
+	-webkit-transition:-webkit-transform 0.3s ease;
+	-ms-transition:-ms-transform 0.3s ease;
+}
+#basicinfo .content table .more:hover{
+	transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+
+}
