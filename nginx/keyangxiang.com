@@ -21,7 +21,7 @@ server {
 	#listen   80; ## listen for ipv4; this line is default and implied
 	#listen   [::]:80 default ipv6only=on; ## listen for ipv6
 
-	root /home/keyang/websites/keyangxiang.com;
+	root /var/www/keyangxiang.com;
 	index index.html index.htm index.php;
 
 	# Make site accessible from http://localhost/

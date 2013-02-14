@@ -1,6 +1,6 @@
 {
 	"projects": [
-		{
+		/*{
 			"name": "JQMVC",
 			"description": "JQMVC is a MVC framework writen in Javascript. It releases developers from nightmare of JS App architecture. With clear and simple Model-View-Controller concept, JQMVC arranges JS code into a pretty and neat way.",
 			"icon": "./images/projects/jqmvcicon.jpg",
@@ -12,7 +12,8 @@
 			"icon": "",
 			"url": "",
 			"blogUrl": ""
-		},{
+		},*/
+		{
 		
 			"name":"CSV2JSON",
 			"description":"Convert CSV Data to JSON format. Additional parsing rules are supported.",
