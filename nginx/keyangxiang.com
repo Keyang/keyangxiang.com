@@ -25,7 +25,7 @@ server {
 	index index.html index.htm index.php;
 
 	# Make site accessible from http://localhost/
-	server_name *.keyangxiang.com;
+	server_name keyangxiang.com www.keyangxiang.com;
 
 	location / {
 		# First attempt to serve request as file, then
