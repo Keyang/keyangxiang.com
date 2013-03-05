@@ -4,7 +4,7 @@
 
 Plugin Name:  SyntaxHighlighter Evolved
 Plugin URI:   http://www.viper007bond.com/wordpress-plugins/syntaxhighlighter/
-Version:      3.1.3
+Version:      3.1.5
 Description:  Easily post syntax-highlighted code to your site without having to modify the code at all. Uses Alex Gorbatchev's <a href="http://alexgorbatchev.com/wiki/SyntaxHighlighter">SyntaxHighlighter</a>. <strong>TIP:</strong> Don't use the Visual editor if you don't want your code mangled. TinyMCE will "clean up" your HTML.
 Author:       Viper007Bond
 Author URI:   http://www.viper007bond.com/
@@ -21,7 +21,7 @@ Thanks to:
 
 class SyntaxHighlighter {
 	// All of these variables are private. Filters are provided for things that can be modified.
-	var $pluginver            = '3.1.3';  // Plugin version
+	var $pluginver            = '3.1.5';  // Plugin version
 	var $agshver              = false;    // Alex Gorbatchev's SyntaxHighlighter version (dynamically set below due to v2 vs v3)
 	var $shfolder             = false;    // Controls what subfolder to load SyntaxHighlighter from (v2 or v3)
 	var $settings             = array();  // Contains the user's settings
@@ -410,7 +410,7 @@ class SyntaxHighlighter {
 		$this->content_save_pre_ran = true;
 
 		// Post quick edits aren't decoded for display, so we don't need to encode them (again)
-		if ( !empty($_POST) && !empty($_POST['action']) && 'inline-save' == $_POST['action'] )
+		if ( ! empty( $_POST ) && !empty( $_POST['action'] ) && 'inline-save' == $_POST['action'] )
 			return $content;
 
 		return $this->encode_shortcode_contents_slashed( $content );
