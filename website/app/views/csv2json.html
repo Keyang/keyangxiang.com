@@ -1,4 +1,11 @@
-<script src="./projects/csv2json/lib.js"></script>
+<script>
+function fu(){
+	var rawcsv=$("#rawcsv").val();
+	$.post("/api/csvtojson",rawcsv,function(data){
+		$("#res").val(data);
+	});
+}
+</script>
 <link rel="stylesheet" type="text/css" href="./css/csv2json.css"/>
 <div class="project_content">
 	<div class="content content-pad relative two_colomn">
