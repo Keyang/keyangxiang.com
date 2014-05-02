@@ -6,7 +6,7 @@
 			"description":"Convert CSV Data to JSON format. Additional parsing rules are supported.",
 			"icon":"",
 			"url":"./projects.html?_ctl=project&_act=csv2json",
-			"blogUrl": "http://keyangxiang.com/blog/csv2json/"
+			"blogUrl": "https://github.com/Keyang/node-csvtojson"
 		}
 	]
 }
